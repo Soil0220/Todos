@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {color: red;}
+        .blue {color: blue;}
+    </style>
+</head>
+<body>
+    <!-- 파이썬 템플릿 문법 / 문법이 조금 다름-->
+    <!-- 플라스크는 최종적으로 파이썬,html을 조합해 최종적인 html을 만든 후 보낸다. -->
+    {% if is_adult == true %}
+    <p class = "blue">{{irum}}님은 성년입니다.</p>
+    {% else %}
+    <p class = "red">{{irum}}님은 미성년입니다.</p>
+    {% endif %}
+</body>
+</html>

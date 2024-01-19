@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input요소 : form 안에서 사용 
+    type으로 모양이 달라진다. 
+    text,password,number,date,file 
+    여러개 중의 하나 받는 type : select
+    name은 select에 준다.
+    선택 했을 때의 값은
+    option에 value속성이 없으면 내용이 곧 값이된다.
+    -->
+    <form action="/start" method="post">
+        <select name = "month">
+            <option disabled selected>월을 선택하시오</option>
+            <!-- disabled 는 선택불가 selected는 초기 선택값으로 설정 -->
+            <option value="1">1월</option>
+            <option value="2">2월</option>
+            <option value="3">3월</option>
+            <option value="4">4월</option>
+            <option value="5">5월</option>
+            <option value="6">6월</option>
+            <option value="7">7월</option>
+            <option value="8">8월</option>
+            <option value="9">9월</option>
+            <option value="10">10월</option>
+            <option value="11">11월</option>
+            <option value="12">12월</option>
+        </select>
+        <button>버튼</button>
+    </form>
+</body>
+</html>

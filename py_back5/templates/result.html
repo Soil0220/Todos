@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gray {
+            color:gray;
+        }
+
+        .green {
+            color:green;
+        }
+
+        .blue {
+            color:blue;
+        }
+
+        .purple {
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- 파이썬 템플릿문법은 숫자여부를 인식할 수 있다. -->
+    {% if result in [3,4,5] %}
+    <p class ="purple">봄</p>
+    {% elif result in [6,7,8] %}
+    <p class ="green">여름</p>
+    {% elif result in [9,10,11] %}
+    <p class ="gray">가을</p>
+    {% else %}
+    <p class ="blue">겨울</p>
+    {% endif %}
+</body>
+</html>

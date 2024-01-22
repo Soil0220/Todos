@@ -32,7 +32,9 @@
                 <tr>
                     <td>{{item.tno}}</td>
                     <td>{{item.name}}</td>
-                    <td>{{item.content}}</td>
+                    <td>
+                    <input type = "text" name = "content" value="{{item.content}}"></input>
+                    </td>
                     <td>{{item.date}}</td>
                     <td>
                     <form action="/delete" method="post">

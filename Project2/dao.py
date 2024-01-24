@@ -32,3 +32,4 @@ def findone(bno):
         if b_item["bno"] == bno:
             b_item["viewcount"] += 1
             return b_item
+    return None
